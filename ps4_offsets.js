@@ -455,11 +455,20 @@ PS4["11.52"] = Object.assign({}, PS4["11.50"], {
 
 PS4["12.02"] = Object.assign({}, PS4["12.00"], {
     alias_of: "12.00",
-    fw_status: "state=UNTESTED-on-hardware shares=11.50 "
+    fw_status: "state=UNTESTED-on-hardware shares=12.00 "
         + "webkit=assumed-identical-to-12.00 "
         + "kernel_rvas=untested-vs-dump "
         + "kpatch=1200.bin",
     kpatch: "1200.bin",
+});
+
+PS4["13.52"] = Object.assign({}, PS4["13.00"], {
+    alias_of: "13.00",
+    fw_status: "state=UNTESTED-on-hardware shares=13.00 "
+        + "webkit=assumed-identical-to-13.00 "
+        + "kernel_rvas=untested-vs-dump "
+        + "kpatch=1300.bin",
+    kpatch: "1300.bin",
 });
 
 export function offsetsFor(uaString) {
