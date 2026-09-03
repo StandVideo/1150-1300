@@ -53,14 +53,6 @@
       "cache_entry_type": 4
     },
     {
-      "url": "https://github.com/StandVideo/1150-1300/logo_raw.png",
-      "local_path": "logo_raw.png",
-      "mime_type": "image/png",
-      "status_code": 200,
-      "size": 14318,
-      "cache_entry_type": 4
-    },
-    {
       "url": "https://github.com/StandVideo/1150-1300/mem.js",
       "local_path": "mem.js",
       "mime_type": "text/javascript",
